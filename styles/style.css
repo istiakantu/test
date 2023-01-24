@@ -1,0 +1,24 @@
+.banner{
+    background: url(../images/banner.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-image{
+    height: 500px;
+}
+.accordion{
+    width: 100%;
+}
+@media only screen and (max-width: 576px){
+    .banner{
+        padding: 10px;
+        background-size: cover;
+    }
+    .faq-image{
+        width: 100%;
+    }
+    .footer-media{
+        flex-direction: column;
+    }
+}
